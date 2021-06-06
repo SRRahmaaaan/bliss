@@ -1,576 +1,601 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="./media/favicon.svg" type="image/x-icon">
-        <link rel="stylesheet" href="./styles/makeup.css">
-        <link rel="stylesheet" href="./styles/utilities.css">
-        <link rel="stylesheet" href="./styles/responsive.css">
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-        <title>Bliss || Digital Agency</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./media/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/makeup.css">
+    <link rel="stylesheet" href="./styles/utilities.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Bliss || Digital Agency</title>
+</head>
 
-    <body>
-        <!-- Navbar -->
-        <header>
-            <div class="navbar">
-                <div class="container flex">
-                    <div class="logo">
-                        <img src="./media/logo.svg" alt="Company Logo">
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="navbar">
+            <div class="container flex">
+                <div class="logo">
+                    <img src="./media/logo.svg" alt="Company Logo">
+                </div>
+                <input type="checkbox" id="togglebar">
+                <label for="togglebar" class="bars" id="bars">
+                    <span class="bar" id="bar-1"></span>
+                    <span class="bar" id="bar-2"></span>
+                    <span class="bar" id="bar-3"></span>
+                </label>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container flex">
+                <div class="w-50 left">
+                    <h2 class="lead">Welcome To Bliss</h2>
+                    <h1 class="my-3">
+                        Problem solver expert <br>
+                        designer team.
+                    </h1>
+                    <div style="width: 80%;">
+                        <p class="mb-3">
+                            We are expert designer team, There have a lot of designer and developer.
+                            If you have any project you can hire.
+                        </p>
                     </div>
-                    <input type="checkbox" id="togglebar">
-                    <label for="togglebar" class="bars" id="bars">
-                        <span class="bar" id="bar-1"></span>
-                        <span class="bar" id="bar-2"></span>
-                        <span class="bar" id="bar-3"></span>
-                    </label>
-                    <nav>
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#pricing">Pricing</a></li>
-                            <li><a href="#team">Team</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </nav>
+                    <button class="main-btn">Get Started</button>
+                </div>
+                <div class="w-50 right">
+                    <div class="showcase-img">
+                        <img src="./media/hero-img.svg" alt="showcase-img">
+                    </div>
                 </div>
             </div>
-            <!-- Hero Section -->
-            <section id="home" class="hero-section">
-                <div class="container flex">
-                    <div class="w-50 left">
-                        <h2 class="lead">Welcome To Bliss</h2>
-                        <h1 class="my-3">
-                            Problem solver expert <br>
-                            designer team.
-                        </h1>
-                        <div style="width: 80%;">
-                            <p class="mb-3">
-                                We are expert designer team, There have a lot of designer and developer.
-                                If you have any project you can hire.
+        </section>
+    </header>
+    <!-- Clients -->
+    <main>
+        <section class="clients">
+            <div class="container flex">
+                <div class="imgbx mx-1">
+                    <img src="./media/uideck.svg" alt="clients Logo">
+                </div>
+                <div class="imgbx mx-1">
+                    <img src="./media/pagebulb.svg" alt="clients Logo">
+                </div>
+                <div class="imgbx mx-1">
+                    <img src="./media/lineicons.svg" alt="clients Logo">
+                </div>
+                <div class="imgbx mx-1">
+                    <img src="./media/graygrids.svg" alt="clients Logo">
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about" class="about">
+            <div class="container flex p-5">
+                <div class="w-50 mx-1 left">
+                    <img src="./media/about-img.svg" alt="About Logo">
+                </div>
+                <div class="w-50 mx-1 right">
+                    <h1>Read more about our digital agency</h1>
+                    <p class="my-2 lead">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy eirmod tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+                        et justo duo dolores.
+                    </p>
+                    <div class="box mb-2 p-2">
+                        <input type="radio" checked name="accordion" class="accordion" id="1">
+                        <label for="1">Which Service We Provide <i class="fas fa-angle-left"></i></label>
+                        <div class="content">
+                            <p class="mt-1">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid.
+                                3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
                             </p>
                         </div>
-                        <button class="main-btn">Get Started</button>
                     </div>
-                    <div class="w-50 right">
-                        <div class="showcase-img">
-                            <img src="./media/hero-img.svg" alt="showcase-img">
+                    <div class="box mb-2 p-2">
+                        <input type="radio" name="accordion" class="accordion" id="2">
+                        <label for="2">What I need to start design <i class="fas fa-angle-left"></i></label>
+                        <div class="content">
+                            <p class="mt-1">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                brunch.
+                            </p>
                         </div>
                     </div>
+                    <div class="box mb-2 p-2">
+                        <input type="radio" name="accordion" class="accordion" id="3">
+                        <label for="3">What is our design process <i class="fas fa-angle-left"></i></label>
+                        <div class="content">
+                            <p class="mt-1">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                            </p>
+                        </div>
+                    </div>
+                    <button class="main-btn">View More</button>
                 </div>
-            </section>
-        </header>
-        <!-- Clients -->
-        <main>
-            <section class="clients">
-                <div class="container flex">
-                    <div class="imgbx mx-1">
-                        <img src="./media/uideck.svg" alt="clients Logo">
-                    </div>
-                    <div class="imgbx mx-1">
-                        <img src="./media/pagebulb.svg" alt="clients Logo">
-                    </div>
-                    <div class="imgbx mx-1">
-                        <img src="./media/lineicons.svg" alt="clients Logo">
-                    </div>
-                    <div class="imgbx mx-1">
-                        <img src="./media/graygrids.svg" alt="clients Logo">
-                    </div>
-                </div>
-            </section>
-            <!-- About -->
-            <section id="about" class="about">
-                <div class="container flex p-5">
-                    <div class="w-50 mx-1 left">
-                        <img src="./media/about-img.svg" alt="About Logo">
-                    </div>
-                    <div class="w-50 mx-1 right">
-                        <h1>Read more about our digital agency</h1>
-                        <p class="my-2 lead">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam 
-                            et justo duo dolores.
-                        </p>
-                        <div class="box mb-2 p-2">
-                            <input type="radio" checked name="accordion" class="accordion" id="1">
-                            <label for="1">Which Service We Provide <i class="fas fa-angle-left"></i></label>
-                            <div class="content">
-                                <p class="mt-1">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
-                                    3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="box mb-2 p-2">
-                            <input type="radio" name="accordion" class="accordion" id="2">
-                            <label for="2">What I need to start design <i class="fas fa-angle-left"></i></label>
-                            <div class="content">
-                                <p class="mt-1">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="box mb-2 p-2">
-                            <input type="radio" name="accordion" class="accordion" id="3">
-                            <label for="3">What is our design process <i class="fas fa-angle-left"></i></label>
-                            <div class="content">
-                                <p class="mt-1">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry 
-                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-                                </p>
-                            </div>
-                        </div>
-                        <button class="main-btn">View More</button>
-                    </div>
-                </div>
-            </section>
-            <!-- Services -->
-            <section id="services" class="services">
-                <div class="text-center p-3 w-50 m-auto">
-                    <h1>Our Services</h1>
-                    <p class="lead mt-1">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                        invidunt labore.
-                    </p>
-                </div>
-                <div class="container flex">
-                    <div class="servicebx p-1 text-center flex" id="servicebx1">
-                        <div class="imgbx p-3">
-                            <i class="fas fa-layer-group fa-2x"></i>
-                        </div>
-                        <h2 class="my-2">UI/UX Design</h2>
-                        <p class="lead">Sit amet consectetur adipisicing elit. Numquam unde et, atque </p>
-                    </div>
-                    <div class="servicebx p-1 text-center flex" id="servicebx2">
-                        <div class="imgbx p-3">
-                            <i class="fas fa-laptop-code fa-2x"></i>
-                        </div>
-                        <h2 class="my-2">Web Design</h2>
-                        <p class="lead">Sit amet consectetur adipisicing elit. Numquam unde et, atque </p>
-                    </div>
-                    <div class="servicebx p-1 text-center flex" id="servicebx3">
-                        <div class="imgbx p-3">
-                            <i class="fas fa-palette fa-2x"></i>
-                        </div>
-                        <h2 class="my-2">Graphic Design</h2>
-                        <p class="lead">Sit amet consectetur adipisicing elit. Numquam unde et, atque </p>
-                    </div>
-                    <div class="servicebx p-1 text-center flex" id="servicebx4">
-                        <div class="imgbx p-3">
-                            <i class="fas fa-bezier-curve fa-2x"></i>
-                        </div>
-                        <h2 class="my-2">Brand Design</h2>
-                        <p class="lead">Sit amet consectetur adipisicing elit. Numquam unde et, atque </p>
-                    </div>
-                </div>
-                <div class="text-center mt-4">
-                    <button class="main-btn">View All Services</button>
-                </div>
-            </section>
-            <!-- Counter -->
-            <section class="counter">
-                <div class="container flex">
-                    <div class="w-50 left">
-                        <h1>Why we are the best, Why you hire </h1>
-                        <p class="lead mb-2 mt-1">Lorem ipsum dolor sit amet adipisicing elit. Esse saepe non in enim
-                            animi nemo deleniti consequatur dignissimos illo nesciunt repudiandae quas ea placeat
-                        </p>
-                        <div class="grid-2">
-                            <div class="counterbx" id="counterbx1">
-                                <div class="imgbx p-2 mb-2">
-                                    <i class="far fa-smile fa-3x"></i>
-                                </div>
-                                <p>3492</p>
-                                <p>Happy Clients</p>
-                            </div>
-                            <div class="counterbx" id="counterbx2">
-                                <div class="imgbx p-2 mb-2">
-                                    <i class="fas fa-check fa-3x"></i>
-                                </div>
-                                <p>8347</p>
-                                <p>Project Done</p>
-                            </div>
-                            <div class="counterbx" id="counterbx3">
-                                <div class="imgbx p-2 mb-2">
-                                    <i class="fas fa-globe-americas fa-3x"></i>
-                                </div>
-                                <p>642k</p>
-                                <p>Live Design</p>
-                            </div>
-                            <div class="counterbx" id="counterbx4">
-                                <div class="imgbx p-2 mb-2">
-                                    <i class="fas fa-user-friends fa-3x"></i>
-                                </div>
-                                <p>42</p>
-                                <p>Creative Designers</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-50 right">
-                        <div class="imgbx">
-                            <img src="./media/counter-up-img.svg" alt="Image">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Portfolio -->
-            <section id="portfolio" class="portfolio">
-                <div class="text-center p-3 w-75">
-                    <h1>Recent Work</h1>
-                    <p class="lead my-1">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim odit veniam placeat.
-                        Velit voluptas tempore a odio repudiandae provident dolores
-                    </p>
-                </div>
-                <div class="container flex">
-                    <div class="portfoliobx m-1">
-                        <div class="imgbx">
-                            <img src="./media/Portfolios/portfolio-1.jpg" alt="Portfolio">
-                        </div>
-                        <div class="content flex p-3">
-                            <div class="link mb-3 p-1 mt-5">
-                                <i class="fas fa-link fa-2x"></i>
-                            </div>
-                            <div class="desc">
-                                <h4 class="mb-1">Web App Landing Page</h4>
-                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisic Asper esse!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfoliobx m-1">
-                        <div class="imgbx">
-                            <img src="./media/Portfolios/portfolio-2.jpg" alt="Portfolio">
-                        </div>
-                        <div class="content flex p-3">
-                            <div class="link mb-3 p-1 mt-5">
-                                <i class="fas fa-link fa-2x"></i>
-                            </div>
-                            <div class="desc">
-                                <h4 class="mb-1">Web App Landing Page</h4>
-                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisic Asper esse!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfoliobx m-1">
-                        <div class="imgbx">
-                            <img src="./media/Portfolios/portfolio-3.jpg" alt="Portfolio">
-                        </div>
-                        <div class="content flex p-3">
-                            <div class="link mb-3 p-1 mt-5">
-                                <i class="fas fa-link fa-2x"></i>
-                            </div>
-                            <div class="desc">
-                                <h4 class="mb-1">Web App Landing Page</h4>
-                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisic Asper esse!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfoliobx m-1">
-                        <div class="imgbx">
-                            <img src="./media/Portfolios/portfolio-4.jpg" alt="Portfolio">
-                        </div>
-                        <div class="content flex p-3">
-                            <div class="link mb-3 p-1 mt-5">
-                                <i class="fas fa-link fa-2x"></i>
-                            </div>
-                            <div class="desc">
-                                <h4 class="mb-1">Web App Landing Page</h4>
-                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisic Asper esse!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfoliobx m-1">
-                        <div class="imgbx">
-                            <img src="./media/Portfolios/portfolio-2.jpg" alt="Portfolio">
-                        </div>
-                        <div class="content flex p-3">
-                            <div class="link mb-3 p-1 mt-5">
-                                <i class="fas fa-link fa-2x"></i>
-                            </div>
-                            <div class="desc">
-                                <h4 class="mb-1">Web App Landing Page</h4>
-                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisic Asper esse!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfoliobx m-1">
-                        <div class="imgbx">
-                            <img src="./media/Portfolios/portfolio-5.jpg" alt="Portfolio">
-                        </div>
-                        <div class="content flex p-3">
-                            <div class="link mb-3 p-1 mt-5">
-                                <i class="fas fa-link fa-2x"></i>
-                            </div>
-                            <div class="desc">
-                                <h4 class="mb-1">Web App Landing Page</h4>
-                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisic Asper esse!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Reviews -->
-            <section class="reviews">
-                <div class="text-center p-3 mb-3">
-                    <h1>Happy Client Says</h1>
-                </div>
-                <div class="slider text-center">
-                    <div class="item" id="item-1">
-                        <div class="imgbx">
-                            <img src="./media/testimonials/testimonial-1.png" alt="Reviewers">
-                        </div>
-                        <p class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Nesciunt fugiat beatae maxime. Voluptates dolore in, numquam qui necessitatibus
-                            officia, architecto asperiores ratione
-                        </p>
-                        <div class="names mb-3">
-                            <h3>John Doe</h3>
-                            <p>Businessman</p>
-                        </div>
-                    </div>
-                    <div class="item" id="item-2">
-                        <div class="imgbx">
-                            <img src="./media/testimonials/testimonial-2.png" alt="Reviewers">
-                        </div>
-                        <p class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Nesciunt fugiat beatae maxime. Voluptates dolore in, numquam qui necessitatibus
-                            officia, architecto asperiores ratione
-                        </p>
-                        <div class="names mb-3">
-                            <h3>Haris Ahmen</h3>
-                            <p>Founder, Bay of Bangal</p>
-                        </div>
-                    </div>
-                    <div class="item" id="item-3">
-                        <div class="imgbx">
-                            <img src="./media/testimonials/testimonial-3.png" alt="Reviewers">
-                        </div>
-                        <p class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Nesciunt fugiat beatae maxime. Voluptates dolore in, numquam qui necessitatibus
-                            officia, architecto asperiores ratione
-                        </p>
-                        <div class="names mb-3">
-                            <h3>Ahmed Josef</h3>
-                            <p>Co-Founder, Bay of Bangal</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="links text-center">
-                    <a href="#item-1"></a>
-                    <a href="#item-2"></a>
-                    <a href="#item-3"></a>
-                </div>
-            </section>
-            <!-- Project -->
-            <section class="project">
-                <div class="container flex py-3">
-                    <div class="left w-50">
-                        <h1>Have any project in your mind? you can hire</h1>
-                        <p class="lead my-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            In obcaecati expedita facere, dolorem numquam commodi.
-                        </p>
-                    </div>
-                    <div class="right w-50">
-                        <button class="main-btn">Let's Start your project</button>
-                    </div>
-                </div>
-            </section>
-            <!-- Pricing -->
-            <section class="pricing" id="pricing">
-                <div class="container grid-2 py-4">
-                    <div class="left flex">
-                        <h1>Choose our pricing</h1>
-                        <p class="lead mt-1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                            voluptua. Avero eos et accusam et justo duo
-                        </p>
-                        <div class="links">
-                            <a href="#priceBx-1"><i class="fas fa-angle-left fa-2x"></i></a>
-                            <a href="#priceBx-3"><i class="fas fa-angle-right fa-2x"></i></a>
-                        </div>
-                        <div class="links hide">
-                            <a href="#priceBx-1"><p>1</p></a>
-                            <a href="#priceBx-2"><p>2</p></a>
-                            <a href="#priceBx-3"><p>3</p></a>
-                        </div>
-                    </div>
-                    <div class="right">
-                        <div class="box flex py-2 text-center" id="priceBx-1">
-                            <div class="headBx mt-3">
-                                <p class="mb-1">Basic</p>
-                                <p>$19.00</p>
-                            </div>
-                            <div class="desc my-3">
-                                <p>Landing page design</p>
-                                <p>Web landing page design</p>
-                                <p>E-commerce website</p>
-                                <p>Create new business</p>
-                                <p>Startup business design</p>
-                                <p>Product design</p>
-                            </div>
-                            <button class="main-btn">Purchanse Now</button>
-                        </div>
-                        <div class="box flex py-2 text-center" id="priceBx-2">
-                            <div class="headBx mt-3">
-                                <p class="mb-1">Standard</p>
-                                <p>$39.00</p>
-                            </div>
-                            <div class="desc my-3">
-                                <p>Landing page design</p>
-                                <p>Web landing page design</p>
-                                <p>E-commerce website</p>
-                                <p>Create new business</p>
-                                <p>Startup business design</p>
-                                <p>Product design</p>
-                            </div>
-                            <button class="main-btn">Purchanse Now</button>
-                        </div>
-                        <div class="box flex py-2 text-center" id="priceBx-3">
-                            <div class="headBx mt-3">
-                                <p class="mb-1">Premium</p>
-                                <p>$99.00</p>
-                            </div>
-                            <div class="desc my-3">
-                                <p>Landing page design</p>
-                                <p>Web landing page design</p>
-                                <p>E-commerce website</p>
-                                <p>Create new business</p>
-                                <p>Startup business design</p>
-                                <p>Product design</p>
-                            </div>
-                            <button class="main-btn">Purchanse Now</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Team -->
-            <section class="team" id="team">
-                <div class="text-center p-3">
-                    <div class="w-75">
-                        <h1>Our Expart Team</h1>
-                        <p class="lead my-1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quasi amet sint
-                            dolor voluptatem recusandae sunt dicta nulla nobis
-                        </p>
-                    </div>
-                </div>
-                <div class="container flex">
-                    <div class="card p-1">
-                        <div class="imgbx">
-                            <img src="./media/team/team-1.jpg" alt="Team Member">
-                        </div>
-                        <div class="content text-center">
-                            <h3>John Doe</h1>
-                            <p class="lead">Creative Designer</p>
-                        </div>
-                    </div>
-                    <div class="card p-1">
-                        <div class="imgbx">
-                            <img src="./media/team/team-2.jpg" alt="Team Member">
-                        </div>
-                        <div class="content text-center">
-                            <h3>Jonathon</h1>
-                            <p class="lead">Graphic Designer</p>
-                        </div>
-                    </div>
-                    <div class="card p-1">
-                        <div class="imgbx">
-                            <img src="./media/team/team-3.jpg" alt="Team Member">
-                        </div>
-                        <div class="content text-center">
-                            <h3>Adam Smith</h1>
-                            <p class="lead">Product Designer</p>
-                        </div>
-                    </div>
-                    <div class="card p-1">
-                        <div class="imgbx">
-                            <img src="./media/team/team-4.jpg" alt="Team Member">
-                        </div>
-                        <div class="content text-center">
-                            <h3>Abraham</h1>
-                            <p class="lead">Web Designer</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Contact -->
-            <section class="contact" id="contact">
-                <div class="text-center p-3 mb-3 w-75">
-                        <h1>Get In Touch</h1>
-                        <p class="lead mt-1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quasi amet sint
-                            dolor voluptatem recusandae sunt dicta nulla nobis
-                        </p>
-                </div>
-                <div class="container grid-2">
-                    <input type="text" placeholder="Your Name" class="p-2 lead">
-                    <input type="email" placeholder="Your Email" class="p-2 lead">
-                    <input type="text" placeholder="Contact Number" class="p-2 lead">
-                    <input type="text" placeholder="Your Subject" class="p-2 lead">
-                    <textarea cols="30" rows="5" placeholder="Your Message" class="p-2 area lead"></textarea>
-                </div>
-                <div class="text-center mt-3">
-                    <button class="main-btn" type="submit">Submit Message</button>
-                </div>
-            </section>
-            <!-- Footer -->
-            <footer class="p-4 footer mt-3">
-                <div class="container grid-4 p-5">
-                    <div class="about">
-                        <img src="./media/logo.svg" alt="Brand Logo">
-                        <p class="lead my-1">
-                            We are expert designer team, There have a lot of designer and developer
-                            If you have any project you can hire Create awebsite.
-                        </p>
-                        <div class="social grid-4 mt-2">
-                            <p><i class="fab fa-facebook-f"></i></p>
-                            <p><i class="fab fa-twitter"></i></p>
-                            <p><i class="fab fa-instagram"></i></p>
-                            <p><i class="fab fa-linkedin-in"></i></p>
-                        </div>
-                    </div>
-                    <div class="links">
-                        <h1 class="mb-2">Links</h1>
-                        <p class="lead">Home</p>
-                        <p class="lead">About</p>
-                        <p class="lead">Services</p>
-                        <p class="lead">Portfolio</p>
-                        <p class="lead">Pricing</p>
-                        <p class="lead">Team</p>
-                        <p class="lead">Contact</p>
-                    </div>
-                    <div class="service">
-                        <h1 class="mb-2">Services</h1>
-                        <p class="lead">Graphic Design</p>
-                        <p class="lead">Web Design</p>
-                        <p class="lead">Visual Design</p>
-                        <p class="lead">Product Design</p>
-                        <p class="lead">UI/UX Design</p>
-                        <p class="lead">Startup Business</p>
-                        <p class="lead">Web Development</p>
-                    </div>
-                    <div class="contact">
-                        <h1 class="mb-2">Contact</h1>
-                        <p class="lead">+00 018 8981 938</p>
-                        <p class="lead">Companybrand@gmail.com</p>
-                        <p class="lead mb-2">United State Of Dubai</p>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462562.84786349937!2d54.94754911112763!3d25.075707329470283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sbd!4v1620907698043!5m2!1sen!2sbd">
-                        </iframe>
-                    </div>
-                </div>
-            </footer>
-            <div class="text-center p-1" style="border-top: 1px solid #ccc;">
-                <p class="lead">Inspired From ULDECK</p>
             </div>
+        </section>
+        <!-- Services -->
+        <section id="services" class="services">
+            <div class="text-center p-3 w-50 m-auto">
+                <h1>Our Services</h1>
+                <p class="lead mt-1">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt labore.
+                </p>
+            </div>
+            <div class="container flex">
+                <div class="servicebx p-1 text-center flex" id="servicebx1">
+                    <div class="imgbx p-3">
+                        <i class="fas fa-layer-group fa-2x"></i>
+                    </div>
+                    <h2 class="my-2">UI/UX Design</h2>
+                    <p class="lead">Sit amet consectetur adipisicing elit. Numquam unde et, atque </p>
+                </div>
+                <div class="servicebx p-1 text-center flex" id="servicebx2">
+                    <div class="imgbx p-3">
+                        <i class="fas fa-laptop-code fa-2x"></i>
+                    </div>
+                    <h2 class="my-2">Web Design</h2>
+                    <p class="lead">Sit amet consectetur adipisicing elit. Numquam unde et, atque </p>
+                </div>
+                <div class="servicebx p-1 text-center flex" id="servicebx3">
+                    <div class="imgbx p-3">
+                        <i class="fas fa-palette fa-2x"></i>
+                    </div>
+                    <h2 class="my-2">Graphic Design</h2>
+                    <p class="lead">Sit amet consectetur adipisicing elit. Numquam unde et, atque </p>
+                </div>
+                <div class="servicebx p-1 text-center flex" id="servicebx4">
+                    <div class="imgbx p-3">
+                        <i class="fas fa-bezier-curve fa-2x"></i>
+                    </div>
+                    <h2 class="my-2">Brand Design</h2>
+                    <p class="lead">Sit amet consectetur adipisicing elit. Numquam unde et, atque </p>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <button class="main-btn">View All Services</button>
+            </div>
+        </section>
+        <!-- Counter -->
+        <section class="counter">
+            <div class="container flex">
+                <div class="w-50 left">
+                    <h1>Why we are the best, Why you hire </h1>
+                    <p class="lead mb-2 mt-1">Lorem ipsum dolor sit amet adipisicing elit. Esse saepe non in enim
+                        animi nemo deleniti consequatur dignissimos illo nesciunt repudiandae quas ea placeat
+                    </p>
+                    <div class="grid-2">
+                        <div class="counterbx" id="counterbx1">
+                            <div class="imgbx p-2 mb-2">
+                                <i class="far fa-smile fa-3x"></i>
+                            </div>
+                            <p>3492</p>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="counterbx" id="counterbx2">
+                            <div class="imgbx p-2 mb-2">
+                                <i class="fas fa-check fa-3x"></i>
+                            </div>
+                            <p>8347</p>
+                            <p>Project Done</p>
+                        </div>
+                        <div class="counterbx" id="counterbx3">
+                            <div class="imgbx p-2 mb-2">
+                                <i class="fas fa-globe-americas fa-3x"></i>
+                            </div>
+                            <p>642k</p>
+                            <p>Live Design</p>
+                        </div>
+                        <div class="counterbx" id="counterbx4">
+                            <div class="imgbx p-2 mb-2">
+                                <i class="fas fa-user-friends fa-3x"></i>
+                            </div>
+                            <p>42</p>
+                            <p>Creative Designers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-50 right">
+                    <div class="imgbx">
+                        <img src="./media/counter-up-img.svg" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio -->
+        <section id="portfolio" class="portfolio">
+            <div class="text-center p-3 w-75">
+                <h1>Recent Work</h1>
+                <p class="lead my-1">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim odit veniam placeat.
+                    Velit voluptas tempore a odio repudiandae provident dolores
+                </p>
+            </div>
+            <div class="container flex">
+                <div class="portfoliobx m-1">
+                    <div class="imgbx">
+                        <img src="./media/Portfolios/portfolio-1.jpg" alt="Portfolio">
+                    </div>
+                    <div class="content flex p-3">
+                        <div class="link mb-3 p-1 mt-5">
+                            <i class="fas fa-link fa-2x"></i>
+                        </div>
+                        <div class="desc">
+                            <h4 class="mb-1">Web App Landing Page</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisic Asper esse!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfoliobx m-1">
+                    <div class="imgbx">
+                        <img src="./media/Portfolios/portfolio-2.jpg" alt="Portfolio">
+                    </div>
+                    <div class="content flex p-3">
+                        <div class="link mb-3 p-1 mt-5">
+                            <i class="fas fa-link fa-2x"></i>
+                        </div>
+                        <div class="desc">
+                            <h4 class="mb-1">Web App Landing Page</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisic Asper esse!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfoliobx m-1">
+                    <div class="imgbx">
+                        <img src="./media/Portfolios/portfolio-3.jpg" alt="Portfolio">
+                    </div>
+                    <div class="content flex p-3">
+                        <div class="link mb-3 p-1 mt-5">
+                            <i class="fas fa-link fa-2x"></i>
+                        </div>
+                        <div class="desc">
+                            <h4 class="mb-1">Web App Landing Page</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisic Asper esse!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfoliobx m-1">
+                    <div class="imgbx">
+                        <img src="./media/Portfolios/portfolio-4.jpg" alt="Portfolio">
+                    </div>
+                    <div class="content flex p-3">
+                        <div class="link mb-3 p-1 mt-5">
+                            <i class="fas fa-link fa-2x"></i>
+                        </div>
+                        <div class="desc">
+                            <h4 class="mb-1">Web App Landing Page</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisic Asper esse!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfoliobx m-1">
+                    <div class="imgbx">
+                        <img src="./media/Portfolios/portfolio-2.jpg" alt="Portfolio">
+                    </div>
+                    <div class="content flex p-3">
+                        <div class="link mb-3 p-1 mt-5">
+                            <i class="fas fa-link fa-2x"></i>
+                        </div>
+                        <div class="desc">
+                            <h4 class="mb-1">Web App Landing Page</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisic Asper esse!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfoliobx m-1">
+                    <div class="imgbx">
+                        <img src="./media/Portfolios/portfolio-5.jpg" alt="Portfolio">
+                    </div>
+                    <div class="content flex p-3">
+                        <div class="link mb-3 p-1 mt-5">
+                            <i class="fas fa-link fa-2x"></i>
+                        </div>
+                        <div class="desc">
+                            <h4 class="mb-1">Web App Landing Page</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisic Asper esse!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Reviews -->
+        <section class="reviews">
+            <div class="text-center p-3 mb-3">
+                <h1>Happy Client Says</h1>
+            </div>
+            <div class="slider text-center">
+                <div class="item" id="item-1">
+                    <div class="imgbx">
+                        <img src="./media/testimonials/testimonial-1.png" alt="Reviewers">
+                    </div>
+                    <p class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Nesciunt fugiat beatae maxime. Voluptates dolore in, numquam qui necessitatibus
+                        officia, architecto asperiores ratione
+                    </p>
+                    <div class="names mb-3">
+                        <h3>John Doe</h3>
+                        <p>Businessman</p>
+                    </div>
+                </div>
+                <div class="item" id="item-2">
+                    <div class="imgbx">
+                        <img src="./media/testimonials/testimonial-2.png" alt="Reviewers">
+                    </div>
+                    <p class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Nesciunt fugiat beatae maxime. Voluptates dolore in, numquam qui necessitatibus
+                        officia, architecto asperiores ratione
+                    </p>
+                    <div class="names mb-3">
+                        <h3>Haris Ahmen</h3>
+                        <p>Founder, Bay of Bangal</p>
+                    </div>
+                </div>
+                <div class="item" id="item-3">
+                    <div class="imgbx">
+                        <img src="./media/testimonials/testimonial-3.png" alt="Reviewers">
+                    </div>
+                    <p class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Nesciunt fugiat beatae maxime. Voluptates dolore in, numquam qui necessitatibus
+                        officia, architecto asperiores ratione
+                    </p>
+                    <div class="names mb-3">
+                        <h3>Ahmed Josef</h3>
+                        <p>Co-Founder, Bay of Bangal</p>
+                    </div>
+                </div>
+            </div>
+            <div class="links text-center">
+                <a href="#item-1"></a>
+                <a href="#item-2"></a>
+                <a href="#item-3"></a>
+            </div>
+        </section>
+        <!-- Project -->
+        <section class="project">
+            <div class="container flex py-3">
+                <div class="left w-50">
+                    <h1>Have any project in your mind? you can hire</h1>
+                    <p class="lead my-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        In obcaecati expedita facere, dolorem numquam commodi.
+                    </p>
+                </div>
+                <div class="right w-50">
+                    <button class="main-btn">Let's Start your project</button>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing -->
+        <section class="pricing" id="pricing">
+            <div class="container grid-2 py-4">
+                <div class="left flex">
+                    <h1>Choose our pricing</h1>
+                    <p class="lead mt-1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                        voluptua. Avero eos et accusam et justo duo
+                    </p>
+                    <div class="links">
+                        <a href="#priceBx-1"><i class="fas fa-angle-left fa-2x"></i></a>
+                        <a href="#priceBx-3"><i class="fas fa-angle-right fa-2x"></i></a>
+                    </div>
+                    <div class="links hide">
+                        <a href="#priceBx-1">
+                            <p>1</p>
+                        </a>
+                        <a href="#priceBx-2">
+                            <p>2</p>
+                        </a>
+                        <a href="#priceBx-3">
+                            <p>3</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="box flex py-2 text-center" id="priceBx-1">
+                        <div class="headBx mt-3">
+                            <p class="mb-1">Basic</p>
+                            <p>$19.00</p>
+                        </div>
+                        <div class="desc my-3">
+                            <p>Landing page design</p>
+                            <p>Web landing page design</p>
+                            <p>E-commerce website</p>
+                            <p>Create new business</p>
+                            <p>Startup business design</p>
+                            <p>Product design</p>
+                        </div>
+                        <button class="main-btn">Purchanse Now</button>
+                    </div>
+                    <div class="box flex py-2 text-center" id="priceBx-2">
+                        <div class="headBx mt-3">
+                            <p class="mb-1">Standard</p>
+                            <p>$39.00</p>
+                        </div>
+                        <div class="desc my-3">
+                            <p>Landing page design</p>
+                            <p>Web landing page design</p>
+                            <p>E-commerce website</p>
+                            <p>Create new business</p>
+                            <p>Startup business design</p>
+                            <p>Product design</p>
+                        </div>
+                        <button class="main-btn">Purchanse Now</button>
+                    </div>
+                    <div class="box flex py-2 text-center" id="priceBx-3">
+                        <div class="headBx mt-3">
+                            <p class="mb-1">Premium</p>
+                            <p>$99.00</p>
+                        </div>
+                        <div class="desc my-3">
+                            <p>Landing page design</p>
+                            <p>Web landing page design</p>
+                            <p>E-commerce website</p>
+                            <p>Create new business</p>
+                            <p>Startup business design</p>
+                            <p>Product design</p>
+                        </div>
+                        <button class="main-btn">Purchanse Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team -->
+        <section class="team" id="team">
+            <div class="text-center p-3">
+                <div class="w-75">
+                    <h1>Our Expart Team</h1>
+                    <p class="lead my-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quasi amet sint
+                        dolor voluptatem recusandae sunt dicta nulla nobis
+                    </p>
+                </div>
+            </div>
+            <div class="container flex">
+                <div class="card p-1">
+                    <div class="imgbx">
+                        <img src="./media/team/team-1.jpg" alt="Team Member">
+                    </div>
+                    <div class="content text-center">
+                        <h3>John Doe</h1>
+                            <p class="lead">Creative Designer</p>
+                    </div>
+                </div>
+                <div class="card p-1">
+                    <div class="imgbx">
+                        <img src="./media/team/team-2.jpg" alt="Team Member">
+                    </div>
+                    <div class="content text-center">
+                        <h3>Jonathon</h1>
+                            <p class="lead">Graphic Designer</p>
+                    </div>
+                </div>
+                <div class="card p-1">
+                    <div class="imgbx">
+                        <img src="./media/team/team-3.jpg" alt="Team Member">
+                    </div>
+                    <div class="content text-center">
+                        <h3>Adam Smith</h1>
+                            <p class="lead">Product Designer</p>
+                    </div>
+                </div>
+                <div class="card p-1">
+                    <div class="imgbx">
+                        <img src="./media/team/team-4.jpg" alt="Team Member">
+                    </div>
+                    <div class="content text-center">
+                        <h3>Abraham</h1>
+                            <p class="lead">Web Designer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <div class="text-center p-3 mb-3 w-75">
+                <h1>Get In Touch</h1>
+                <p class="lead mt-1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quasi amet sint
+                    dolor voluptatem recusandae sunt dicta nulla nobis
+                </p>
+            </div>
+            <div class="container grid-2">
+                <input type="text" placeholder="Your Name" class="p-2 lead">
+                <input type="email" placeholder="Your Email" class="p-2 lead">
+                <input type="text" placeholder="Contact Number" class="p-2 lead">
+                <input type="text" placeholder="Your Subject" class="p-2 lead">
+                <textarea cols="30" rows="5" placeholder="Your Message" class="p-2 area lead"></textarea>
+            </div>
+            <div class="text-center mt-3">
+                <button class="main-btn" type="submit">Submit Message</button>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="p-4 footer mt-3">
+            <div class="container grid-4 p-5">
+                <div class="about">
+                    <img src="./media/logo.svg" alt="Brand Logo">
+                    <p class="lead my-1">
+                        We are expert designer team, There have a lot of designer and developer
+                        If you have any project you can hire Create awebsite.
+                    </p>
+                    <div class="social grid-4 mt-2">
+                        <p><i class="fab fa-facebook-f"></i></p>
+                        <p><i class="fab fa-twitter"></i></p>
+                        <p><i class="fab fa-instagram"></i></p>
+                        <p><i class="fab fa-linkedin-in"></i></p>
+                    </div>
+                </div>
+                <div class="links">
+                    <h1 class="mb-2">Links</h1>
+                    <p class="lead">Home</p>
+                    <p class="lead">About</p>
+                    <p class="lead">Services</p>
+                    <p class="lead">Portfolio</p>
+                    <p class="lead">Pricing</p>
+                    <p class="lead">Team</p>
+                    <p class="lead">Contact</p>
+                </div>
+                <div class="service">
+                    <h1 class="mb-2">Services</h1>
+                    <p class="lead">Graphic Design</p>
+                    <p class="lead">Web Design</p>
+                    <p class="lead">Visual Design</p>
+                    <p class="lead">Product Design</p>
+                    <p class="lead">UI/UX Design</p>
+                    <p class="lead">Startup Business</p>
+                    <p class="lead">Web Development</p>
+                </div>
+                <div class="contact">
+                    <h1 class="mb-2">Contact</h1>
+                    <p class="lead">+00 018 8981 938</p>
+                    <p class="lead">Companybrand@gmail.com</p>
+                    <p class="lead mb-2">United State Of Dubai</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462562.84786349937!2d54.94754911112763!3d25.075707329470283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sbd!4v1620907698043!5m2!1sen!2sbd">
+                    </iframe>
+                </div>
+            </div>
+        </footer>
+        <div class="text-center p-1" style="border-top: 1px solid #ccc;">
+            <p class="lead">&copy; 2030 All Right Reserved</p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -592,6 +617,7 @@
 
 
 
+    </main>
 
 
 
@@ -609,7 +635,6 @@
 
 
 
-        </main>
 
 
 
@@ -697,23 +722,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </body>
+</body>
 
 </html>
